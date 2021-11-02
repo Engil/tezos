@@ -4,10 +4,7 @@ name: Build from scratch
 on:
   # Triggers the on push or pull request events but only for the main branch
   push:
-    branches: [ 4.12.0+domains ]
   pull_request:
-    branches: 
-      - 4.12.0+domains
   schedule:
     # Runs everyday at 00:00 AM
     - cron: 0 0 * * *
